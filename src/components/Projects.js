@@ -8,28 +8,28 @@ export default function Projects() {
     {
       title: "React Calculator",
       desc: "A clean calculator with light and dark themes built using React hooks.",
-      img: "/images/calculator.png",
+      img: process.env.PUBLIC_URL + "/images/calculator.png",
       link: "https://github.com/muskan-akram/react-smart-calculator",
       demo: "https://muskan-akram.github.io/react-smart-calculator/"
     },
     {
       title: "Hair Day Salon",
       desc: "A clean and responsive homepage built as part of the Meta Frontend course.",
-      img: "/images/hairday.png",
+      img: process.env.PUBLIC_URL + "/images/hairday.png",
       link: "https://github.com/muskan-akram/responsive-homepage-hair-day",
       demo: "https://muskan-akram.github.io/responsive-homepage-hair-day/"
     },
     {
       title: "Resume Evaluator",
       desc: "AI powered resume checker built with Flask and NLP.",
-      img: "/images/hire.png",
+      img: process.env.PUBLIC_URL + "/images/hire.png",
       link: "https://huggingface.co/spaces/muskan-akram/hire-resume-evaluator/tree/main",
       demo: "https://huggingface.co/spaces/muskan-akram/hire-resume-evaluator"
     },
     {
       title: "E-commerce UI",
       desc: "E-commerce UI mockup built with React, replicating Figma design.",
-      img: "/images/ecommerce.png",
+      img: process.env.PUBLIC_URL + "/images/ecommerce.png",
       link: "https://github.com/muskan-akram/ecommerce-ui",
       demo: "https://muskan-akram.github.io/ecommerce-ui/"
     }
