@@ -1,0 +1,38 @@
+
+header {
+  position: fixed;
+  width: 100%;
+  background: white;
+  padding: 15px 0;
+  top: 0;
+  left: 0;
+  transition: transform 0.4s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  z-index: 1000;
+}
+
+.hide-header {
+  transform: translateY(-120px);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+nav a {
+  margin: 0 15px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #555;
+}
+
+.socials a {
+  margin-left: 10px;
+  color: #6c63ff;
+  font-weight: 600;
+}
